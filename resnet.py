@@ -1,3 +1,15 @@
+"""ResNet models for Keras.
+Reference:
+  - [Deep Residual Learning for Image Recognition](
+      https://arxiv.org/abs/1512.03385) (CVPR 2015)
+"""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+
+import tensorflow as tf
+
 BASE_WEIGHTS_PATH = (
     'https://storage.googleapis.com/tensorflow/keras-applications/resnet/')
 
